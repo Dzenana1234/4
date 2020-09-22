@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Animacija</title>
 </head>
 <style>
     #div-1{
@@ -13,8 +13,7 @@
     justify-content: center;
     align-items: center;
     background-color: #050210;
-    transform: translate(150px, 130px)
-}
+    transform: translate(150px, 130px)}
 #box-1{
     position: relative;
     width: 300px;
@@ -22,36 +21,27 @@
     border-radius: 50%;
     background: linear-gradient(#fb5dad, #55fb9f, 
     #b97aff);
-    animation: ring 2s linear infinite;
-}
+    animation: ring 2s linear infinite;}
 @keyframes ring{
     from{
-        transform: rotate(0deg);
-    }
+        transform: rotate(0deg);}
     to{
-        transform: rotate(360deg);
-    }
-}
+        transform: rotate(360deg);}}
 .blur{
     position: absolute;
     width: 100%;
     height: 100%;
     border-radius: 50%;
     background: linear-gradient(#fb5dad, #55fb9f, 
-    #b97aff);
-}
+    #b97aff);}
 #blur1{
-    filter: blur(5px);
-}
+    filter: blur(5px);}
 #blur2{
-    filter: blur(15px);
-}
+    filter: blur(15px);}
 #blur3{
-    filter: blur(40px);
-}
+    filter: blur(40px);}
 #blur4{
-    filter: blur(55px);
-}
+    filter: blur(55px);}
 #ring{
     position: absolute;
     top: 20px;
@@ -60,8 +50,7 @@
     left: 20px;
     border-radius: 50%;
     background-color: #050210;
-    content: "";
-}
+    content: "";}
 #ring::after{
     position: absolute;
     top: 20px;
@@ -71,22 +60,15 @@
     border-radius: 50%;
     content: "";
     background-color:#0c0424 ;
-    animation: in-ring 2s ease-in-out infinite;
-}
+    animation: in-ring 2s ease-in-out infinite;}
 @keyframes in-ring{
     from{
-        transform: scale(0,0);
-    }
+        transform: scale(0,0);}
     to{
-        transform: scale(100%,100%);
-    }
-}
+        transform: scale(100%,100%);}}
 
 </style>
 <body>
-
-    
-
 <body>
     <div id="div-1">
         <div id="box-1">
